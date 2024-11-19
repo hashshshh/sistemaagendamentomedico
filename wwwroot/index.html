@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistema de Agendamento Médico</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Sistema de Agendamento Médico</h1>
+
+    <!-- Formulário para Médicos -->
+    <section>
+        <h2>Cadastro de Médicos</h2>
+        <form id="medicoForm">
+            <input type="text" id="medicoNome" placeholder="Nome do Médico" required>
+            <input type="text" id="medicoEspecialidade" placeholder="Especialidade" required>
+            <button type="submit">Cadastrar Médico</button>
+        </form>
+        <h3>Lista de Médicos</h3>
+        <ul id="medicoList"></ul>
+    </section>
+
+    <!-- Formulário para Pacientes -->
+    <section>
+        <h2>Cadastro de Pacientes</h2>
+        <form id="pacienteForm">
+            <input type="text" id="pacienteNome" placeholder="Nome do Paciente" required>
+            <input type="text" id="pacienteContato" placeholder="Contato" required>
+            <button type="submit">Cadastrar Paciente</button>
+        </form>
+        <h3>Lista de Pacientes</h3>
+        <ul id="pacienteList"></ul>
+    </section>
+
+    <!-- Formulário para Agendamentos -->
+    <section>
+        <h2>Agendar Consulta</h2>
+        <form id="agendamentoForm">
+            <label for="agendamentoMedicoId">Selecione o Médico:</label>
+            <select id="agendamentoMedicoId" required>
+                <option value="" disabled selected>Selecione um médico</option>
+            </select>
+
+            <label for="agendamentoPacienteId">Selecione o Paciente:</label>
+            <select id="agendamentoPacienteId" required>
+                <option value="" disabled selected>Selecione um paciente</option>
+            </select>
+
+            <label for="agendamentoDataHora">Data e Hora:</label>
+            <input type="datetime-local" id="agendamentoDataHora" required>
+
+            <button type="submit">Agendar</button>
+        </form>
+
+        <h3>Lista de Agendamentos</h3>
+        <ul id="agendamentoList"></ul>
+    </section>
+
+    <script src="scripts.js"></script>
+</body>
+</html>

@@ -1,0 +1,77 @@
+{
+  "Version": 1,
+  "Hash": "asRhRhV775/oYah90QarohPz2kK0ykzRYVip0SRsEOA=",
+  "Source": "SistemaAgendamentoMedico",
+  "BasePath": "_content/SistemaAgendamentoMedico",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "SistemaAgendamentoMedico/wwwroot",
+      "Source": "SistemaAgendamentoMedico",
+      "ContentRoot": "/Users/eduardobatistella/SistemaAgendamentoMedico/wwwroot/",
+      "BasePath": "_content/SistemaAgendamentoMedico",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "/Users/eduardobatistella/SistemaAgendamentoMedico/wwwroot/index.html",
+      "SourceId": "SistemaAgendamentoMedico",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/eduardobatistella/SistemaAgendamentoMedico/wwwroot/",
+      "BasePath": "_content/SistemaAgendamentoMedico",
+      "RelativePath": "index.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/index.html"
+    },
+    {
+      "Identity": "/Users/eduardobatistella/SistemaAgendamentoMedico/wwwroot/scripts.js",
+      "SourceId": "SistemaAgendamentoMedico",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/eduardobatistella/SistemaAgendamentoMedico/wwwroot/",
+      "BasePath": "_content/SistemaAgendamentoMedico",
+      "RelativePath": "scripts.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/scripts.js"
+    },
+    {
+      "Identity": "/Users/eduardobatistella/SistemaAgendamentoMedico/wwwroot/styles.css",
+      "SourceId": "SistemaAgendamentoMedico",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/eduardobatistella/SistemaAgendamentoMedico/wwwroot/",
+      "BasePath": "_content/SistemaAgendamentoMedico",
+      "RelativePath": "styles.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/styles.css"
+    }
+  ]
+}
